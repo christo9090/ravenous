@@ -6,7 +6,7 @@ import SearchBar from '../components/SearchBar/SearchBar'
 function App() {
   return (
     <div className="App">
-      <h1>ravenous</h1>
+      <h1>ravenous is the shit</h1>
       <SearchBar />
       <BusinessList />
     </div>
