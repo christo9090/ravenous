@@ -3,7 +3,7 @@
 const apiKey = 'a8IEatwG2PiGwOR8CRHozKmJ-QSXTjH15bDhEf5NohgioX4i_UA5BZCfXeR7vs1WHtKXWDFsZijR_ruarWeCl-Bbsv4oIr9u2JeUx5vT0-WdNOfHAhywtafwInC3XXYx'
 
 
-const yelp = {
+const Yelp = {
   search(term, location, sortBy) {
     let urlToFetch = `https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`
       return fetch('https://cors-anywhere.herokuapp.com/'+urlToFetch, {
@@ -34,4 +34,4 @@ const yelp = {
 }
 }
 
-export default yelp;
+export default Yelp;
